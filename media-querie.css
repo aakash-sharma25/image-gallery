@@ -1,0 +1,25 @@
+
+
+@media screen and (max-width:1023px) {
+    .container{
+        flex-direction: column;
+        padding-block: 30px;
+    }
+    .gallary{
+        width: 100%;
+        grid-auto-rows: 220px;
+    }
+    .gall-img{
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    .left h2{
+        font-size: 1.5rem;
+    }
+    
+    .left p{
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+}
